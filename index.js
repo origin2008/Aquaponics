@@ -37,7 +37,7 @@ app.get('/api/meal', (req, res) => {
   options = {
     uri: 'https://open.neis.go.kr/hub/mealServiceDietInfo',
     qs: {
-      KEY: '6436ae30401e4a40a6fb4358dfc0d321',
+      KEY: 'api key',
       Type: 'json',
       ATPT_OFCDC_SC_CODE: 'N10',
       SD_SCHUL_CODE: '8140085',
